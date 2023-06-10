@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:whitesmoke;
+}
+/* 1 ======= Hader Section design ========= */
+
+
+
+/*======== navbar design and create css all ========= */
+
+
+/* 1 ======= Hader Section design ========= */
+#navbar-design-header-main{
+    background:#333;
+    width: 100%;
+    padding:5px;
+   margin-top:-12px;
+    position: fixed;
+    z-index: 1;
+    
+ }
+ 
+ 
+ ul{
+     list-style-type: none;
+     float: right;
+     margin-right:50px;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+     margin-top: 10px;
+ 
+ }
+ 
+ ul li{
+     display: inline-flex;
+ }
+ 
+ ul li a{
+     color:WHITE;
+     text-decoration:none ;
+     margin: 10px;
+      font-size:18px; 
+     display: block;
+     padding: 8px;
+     transition: 0.4s;
+     
+     
+     }
+ 
+     li a:hover{
+         background-color: white;
+         color: #dddddd; 
+        border-radius: 3px;
+       
+         
+     }
+ 
+ 
+ 
+ 
+ #main-logo-design{
+     position:absolute;
+     top: 10px;
+ 
+ }
+ .project-logo-image-1{
+    width: 34px;
+     height: 12vh;
+     margin-left: 11px;
+  
+   }
+ 
+ 
+   #logo-name-and-page-logo-1
+   {
+    
+     
+       color:red;
+       text-transform: inherit;
+       font-family: Arial, Helvetica, sans-serif;
+       font-variant: small-caps;
+   
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 40px;
+   
+   }
+   
+   .logo-name-1
+   { 
+       color: rgba(9, 255, 222, 0.596);
+       text-decoration: none;
+       margin-left: 40px;
+       position: absolute;
+       top:11px;
+       left: 1px;
+   
+   }
+   
+   
+   
+   #logo-name-and-page-logo-2
+   {
+    
+   color: rgba(255, 0, 0, 0.781);
+   font-family: Arial, Helvetica, sans-serif;
+   font: 200;
+   font-size: 30px;
+  
+   
+   }
+   
+   .logo-name-2{
+       color: rgba(255, 0, 0, 0.781); 
+       text-decoration: none;
+      position: absolute;
+      top: 30px;
+      left: 63px;
+   }
+   
+ 
+
+
+/* ====== login button design ======== */
+
+#login-btn{
+    margin-right: 20px;
+    padding: 15px 30px ;
+   
+    background-color: #3f91c4;
+    border:1px solid #3f91c4;
+    border-radius: 10px;
+cursor: pointer;
+}
+#login-btn a{
+    text-decoration: none;
+    font-size:18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#login-btn:hover{
+    border: 1px solid black;
+    background-color: red;
+    
+}
+/* ==== login button design end ======= */
+
+/* ======= contact form design ======= */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top:120px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/* ===== =======  Footer Details Start  ======= ======  */
+
+#footer-details-insert-section-1{
+
+    background-color: #333333de;
+    width: 100%;
+    height: 200px;
+    }
+
+    /* footer section -1  */
+
+    .footer-sec-1-text-heding-and-sub-heding{
+        position: absolute;
+      
+        left: 40%;
+        top: 184%;
+    }
+    .-foot-sec-1-text-heading-1{
+       margin-top: 50px;
+        font-size: 35px;
+        letter-spacing: 2px;
+        color: #F6B042;
+    }
+    .-foot-sec-1-text-heading-2{
+        margin-top: -40px;
+        margin-left: 36px;
+         font-size: 35px;
+         letter-spacing: 2px;
+         color:red;
+     }
+    .-foot-sec-1-text-sub-heding{
+     
+        font-size: 10px;
+         margin-top: -9px;
+         margin-left: 12px;
+         color:#9fafca;
+         
+        
+    }
+.-foot-navbar-content-main{
+   position: absolute;
+   top:207%;
+   left: 35%;
+   color: white;
+   display: flex;
+   word-spacing: 1px;
+    }
+
+.-foot-navbar-content-main a{
+text-decoration: none;
+margin: 2px;
+color: white;
+font-size: 17px;
+
+    }
+ 
+.-foot-navbar-content-main a:hover{
+color: red;
+font-size: 20px;
+    }
+
+
+.-foot-sec-1-logo-image{
+        position: absolute;
+        top: 30%;
+        left:-33%;
+        width: 50px;
+        height: 90px;
+     }
+ 
+
+
+
+    /*  footer section -2 deatails */
+#footer-details-insert-section-2{
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    top: 211%;
+    width: 100%;
+    height: 8vh;
+    
+}
+.copyright-and-website-update-details{
+    color: white;
+    font-size: 11px;
+    margin-left: 40%;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.Developer-info-details{
+    margin-left: 41%;
+    margin-top: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.-web-update-details-provide{
+     margin-top: -15px;
+     color:white;
+     margin-left: 5px;
+}
+
+.contact-email-website-provide{
+    float: right;
+    margin-top: -12px;
+    color: white;
+    margin-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+ /*  ====== time show funcation insert in web css ========= */
+
+
+
+ .current-time-text-show{
+    position: absolute;
+    top:208%;
+    left: .3%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.clock {
+    position: absolute;
+    top: 209%;
+    left: 11.5%;
+    
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+

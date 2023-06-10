@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   
+ 
+ /* 1 ======= Hader Section design ========= */
+
+
+
+/*======== navbar design and create css all ========= */
+
+
+/* 1 ======= Hader Section design ========= */
+#navbar-design-header-main{
+    background:#333;
+    width: 100%;
+    padding:5px;
+   margin-top: -7px;
+    position: fixed;
+    z-index: 1;
+    
+ }
+ 
+ 
+ ul{
+     list-style-type: none;
+     float: right;
+     margin-right:50px;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+     margin-top: 10px;
+ 
+ }
+ 
+ ul li{
+     display: inline-flex;
+ }
+ 
+ ul li a{
+     color:WHITE;
+     text-decoration:none ;
+     margin: 10px;
+      font-size:18px; 
+     display: block;
+     padding: 8px;
+     transition: 0.4s;
+     
+     
+     }
+ 
+     li a:hover{
+         background-color: white;
+         color: #dddddd; 
+        border-radius: 3px;
+       
+         
+     }
+ 
+ 
+ 
+ 
+ #main-logo-design{
+     position:absolute;
+     top: 10px;
+ 
+ }
+ .project-logo-image-1{
+    width: 34px;
+     height: 12vh;
+     margin-left: 11px;
+  
+   }
+ 
+ 
+   #logo-name-and-page-logo-1
+   {
+    
+     
+       color:red;
+       text-transform: inherit;
+       font-family: Arial, Helvetica, sans-serif;
+       font-variant: small-caps;
+   
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 40px;
+   
+   }
+   
+   .logo-name-1
+   { 
+       color: rgba(9, 255, 222, 0.596);
+       text-decoration: none;
+       margin-left: 40px;
+       position: absolute;
+       top:11px;
+       left: 1px;
+   
+   }
+   
+   
+   
+   #logo-name-and-page-logo-2
+   {
+    
+   color: rgba(255, 0, 0, 0.781);
+   font-family: Arial, Helvetica, sans-serif;
+   font: 200;
+   font-size: 30px;
+  
+   
+   }
+   
+   .logo-name-2{
+       color: rgba(255, 0, 0, 0.781); 
+       text-decoration: none;
+      position: absolute;
+      top: 30px;
+      left: 63px;
+   }
+   
+ 
+
+
+
+
+
+
+/* ==== login button design end ======= */
+
+
+
+
+/* ====== login button design ======== */
+
+#login-btn{
+    margin-right: 20px;
+    padding: 15px 30px ;
+   
+    background-color: red;
+    border:1px solid red;
+    border-radius: 10px;
+cursor: pointer;
+}
+#login-btn a{
+    text-decoration: none;
+    font-size:18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+}
+#login-btn:hover{
+    background-color:#3f91c4;
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+
+
+
+#customers {
+    position: absolute;
+    top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+ 

@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+   
+}
+
+
+
+
+
+/* 1 ======= Hader Section design ========= */
+#navbar-design-header-main{
+   background:#333;
+   width: 100%;
+   padding:5px;
+  margin-top: -10px;
+   position: fixed;
+   z-index: 1;
+   
+}
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-right:50px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+ul li{
+    display: inline-flex;
+}
+
+ul li a{
+    color:WHITE;
+    text-decoration:none ;
+    margin: 10px;
+     font-size:18px; 
+    display: block;
+    padding: 8px;
+    transition: 0.4s;
+    
+    
+    }
+
+    li a:hover{
+        background-color: white;
+        color: #dddddd; 
+       border-radius: 3px;
+      
+        
+    }
+
+
+
+
+#main-logo-design{
+    position:absolute;
+    top: 10px;
+
+}
+.project-logo-image-1{
+   width: 34px;
+    height: 12vh;
+    margin-left: 11px;
+ 
+  }
+
+
+  #logo-name-and-page-logo-1
+  {
+   
+    
+      color:red;
+      text-transform: inherit;
+      font-family: Arial, Helvetica, sans-serif;
+      font-variant: small-caps;
+  
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  
+  }
+  
+  .logo-name-1
+  { 
+      color: rgba(9, 255, 222, 0.596);
+      text-decoration: none;
+      margin-left: 40px;
+      position: absolute;
+      top:11px;
+      left: 1px;
+  
+  }
+  
+  
+  
+  #logo-name-and-page-logo-2
+  {
+   
+  color: rgba(255, 0, 0, 0.781);
+  font-family: Arial, Helvetica, sans-serif;
+  font: 200;
+  font-size: 30px;
+ 
+  
+  }
+  
+  .logo-name-2{
+      color: rgba(255, 0, 0, 0.781); 
+      text-decoration: none;
+     position: absolute;
+     top: 30px;
+     left: 63px;
+  }
+  
+
+
+
+
+
+
+
+/* ====== logout button design ======== */
+
+#logout-btn{
+    margin-right: 20px;
+    padding: 10px;
+
+    background-color: red;
+    border:1px solid red;
+    border-radius: 10px;
+cursor: pointer;
+}
+#logout-btn a{
+    text-decoration: none;
+    font-size:18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#logout-btn:hover{
+    border: 1px solid black;
+}
+
+
+#name-heading{
+    margin-top:50px;
+    margin-left: 10px;
+}
+
+
+
+/* ==== logout button design end ======= */
+
+
+
+/* ===== Profile section Voter all deatails show api ========= */
+
+
+
+#Profile{
+    position: relative;
+    top: 70px;
+  width:100%;
+  
+     text-align:center;
+     background-image: url("../../e-voter-project-image/photo-1554034483-04fda0d3507b.jpg");
+   background-repeat: no-repeat;
+   width: 100%;
+background-size: cover;
+}
+
+    /* ========= voter image show header section css =========  */
+
+#user_api_image_set{
+position: absolute;
+left: 13%;
+top: 20%;
+
+ border: 3px solid #ED2B2A;
+ 
+ width:53px;
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+#voter_image_main_page_show{
+    object-fit: cover; 
+  border-radius: 100%;  
+}
+
+
+
+/* ======= voter deatils text css ======= */
+
+
+
+#name-heading{
+    font-size: 20px;
+  font-weight: 400;
+  padding-top:10px;
+}
+
+
+
+#votebtn{
+  margin-left: 600px;
+    padding: 1px 2px ;
+   color: white;
+    background-color:green;
+    border:1px solid green;
+    border-radius: 10px;
+cursor: pointer;
+font-size: 40px;
+
+}
+#votebtn a{
+    text-decoration: none;
+    font-size:50px;
+    font-family: Arial;
+   
+    letter-spacing: 1px;
+    
+}
+#votebtn:hover{
+    background-color:red;
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+#candidate-votes-and-name-image{
+background-image: url("../../e-voter-project-image/api-image-background-candidate-deatils.jpg");
+width:70%;
+margin-left: 160px;
+position: relative;
+top: 120px;
+
+
+}
+
+
+#candidate_data_show_api{
+ margin: 10px;
+}
+
+.candidate-image{
+    margin-top: 50px;
+}
+
+.candidate-name-text{
+margin-left: 200px;
+font-family:arial;
+margin-top: -50px;
+color:white;
+}
+
+
+#candidate-heding{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 400;
+
+}
+
+
+
+

@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*  ========== logo and name design ========= */
+#main-logo-design{
+   margin-top: -8px;
+
+}
+.project-logo-image-1{
+   width: 30px;
+    height: 10vh;
+    margin-left: 11px;
+
+ 
+  }
+
+
+  #logo-name-and-page-logo-1
+  {
+   
+    
+      color:red;
+      text-transform: inherit;
+      font-family: Arial, Helvetica, sans-serif;
+      font-variant: small-caps;
+  
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  
+  }
+  
+  .logo-name-1
+  { 
+      color: rgba(9, 255, 222, 0.596);
+      text-decoration: none;
+      margin-left: 40px;
+      position: absolute;
+      top: 8px;
+      left: -3px;
+  
+  }
+  
+  
+  
+  #logo-name-and-page-logo-2
+  {
+   
+  color: rgba(255, 0, 0, 0.781);
+  font-family: Arial, Helvetica, sans-serif;
+  font: 200;
+  font-size: 20px;
+ 
+  
+  }
+  
+  .logo-name-2{
+      color: rgba(255, 0, 0, 0.781); 
+      text-decoration: none;
+     position: absolute;
+     top: 30px;
+     left: 60px;
+  }
+
+
+  .welcome-text{
+    float: right;
+    margin-top: -40px;
+    margin-right: 30px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+
+
+
+  /* ===== navbar design ======= */
+/*   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: rgb(192, 19, 100);
+  } */
+
+
+
+  
+
+
+  /* ===== navbar design ======= */
+  
+  
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  margin-left:20px ;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(192, 19, 100);
+  cursor: pointer;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+  /* ========= logout btn ==== */
+
+#logout-btn{
+float: right;
+margin-right: 40px;
+margin-top: -44px;
+border-radius: 5px;
+padding: 8px;
+cursor: pointer;
+
+}
+#logout-btn a{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+ 
+
+}
+
+
+.from-container{
+  text-align: center;
+  margin-top: 40px;
+
+
+}
+.register-form-heding{
+  padding: 20px;
+}
+
+
+
+
+
+
+label{
+  padding: 20px;
+
+}
+
+input{
+  padding-left:10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 2px;
+  font-size:300 ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+

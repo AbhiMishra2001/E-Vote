@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+
+/* 1 ======= Hader Section design ========= */
+
+
+
+/*======== navbar design and create css all ========= */
+
+
+/* 1 ======= Hader Section design ========= */
+#navbar-design-header-main{
+    background:#333;
+    width: 100%;
+    padding:5px;
+   margin-top: -7px;
+    position: fixed;
+    z-index: 1;
+    
+ }
+ 
+ 
+ ul{
+     list-style-type: none;
+     float: right;
+     margin-right:50px;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+     margin-top: 10px;
+ 
+ }
+ 
+ ul li{
+     display: inline-flex;
+ }
+ 
+ ul li a{
+     color:WHITE;
+     text-decoration:none ;
+     margin: 10px;
+      font-size:18px; 
+     display: block;
+     padding: 8px;
+     transition: 0.4s;
+     
+     
+     }
+ 
+     li a:hover{
+         background-color: white;
+         color: #dddddd; 
+        border-radius: 3px;
+       
+         
+     }
+ 
+ 
+ 
+ 
+ #main-logo-design{
+     position:absolute;
+     top: 10px;
+ 
+ }
+ .project-logo-image-1{
+    width: 34px;
+     height: 12vh;
+     margin-left: 11px;
+  
+   }
+ 
+ 
+   #logo-name-and-page-logo-1
+   {
+    
+     
+       color:red;
+       text-transform: inherit;
+       font-family: Arial, Helvetica, sans-serif;
+       font-variant: small-caps;
+   
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 40px;
+   
+   }
+   
+   .logo-name-1
+   { 
+       color: rgba(9, 255, 222, 0.596);
+       text-decoration: none;
+       margin-left: 40px;
+       position: absolute;
+       top:11px;
+       left: 1px;
+   
+   }
+   
+   
+   
+   #logo-name-and-page-logo-2
+   {
+    
+   color: rgba(255, 0, 0, 0.781);
+   font-family: Arial, Helvetica, sans-serif;
+   font: 200;
+   font-size: 30px;
+  
+   
+   }
+   
+   .logo-name-2{
+       color: rgba(255, 0, 0, 0.781); 
+       text-decoration: none;
+      position: absolute;
+      top: 30px;
+      left: 63px;
+   }
+   
+ 
+
+
+
+/* ====== login button design ======== */
+
+#login-btn{
+    margin-right: 20px;
+    padding: 15px 30px ;
+   
+    background-color: red;
+    border:1px solid red;
+    border-radius: 10px;
+cursor: pointer;
+}
+#login-btn a{
+    text-decoration: none;
+    font-size:18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+}
+#login-btn:hover{
+    background-color:#3f91c4;
+    border: 1px solid black;
+    
+}
+
+
+/*    ======== */
+#main-image-about-section{
+    width:100%;
+     height:20vh;
+     background-position: center;
+     margin-top: 60px;
+
+}
+#about-us-main-section{
+  
+  width: 100%;
+height: 90%;
+text-align: center;
+
+}
+.e-voting-about{
+  font-size: 30px;
+  color: #3f91c4;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.e-voting-explain-details{
+    width: 80%;
+    background-color: white;
+    height: 470px;
+    margin-left:150px ;
+    margin-top: 30px;
+    padding-bottom: 80%;
+    border-top: 12px solid #3c7f81;
+    border-right: 1px solid #3c7f81;
+    border-top-width: 5%;
+    border-bottom: 5px solid #3c7f81;
+    border-left: 1px solid #3c7f81;
+}
+
+.e-voting-defination{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+font-weight: 400;
+
+
+
+
+}
+
+.question-1{
+    float: left;
+    margin-left: 7px;
+    margin-top: 3px;
+    font-size: 25px;
+    color:#3f91c4;
+
+}
+
+.answer-1{
+    padding: 10px;
+    word-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+font-weight: 400;
+letter-spacing: .1px;
+    
+}
+
+
+
+
+ /*  footer section -2 deatails */
+ #footer-details-insert-section-2{
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    height: 8vh;
+    
+}
+.copyright-and-website-update-details{
+    color: white;
+    font-size: 11px;
+    margin-left: 40%;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.Developer-info-details{
+    margin-left: 41%;
+    margin-top: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.-web-update-details-provide{
+     margin-top: -15px;
+     color:white;
+     margin-left: 5px;
+}
+
+.contact-email-website-provide{
+    float: right;
+    margin-top: -12px;
+    color: white;
+    margin-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

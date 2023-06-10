@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url("../../e-voter-project-image/photo-1554034483-04fda0d3507b.jpg" );
+background-repeat: no-repeat;
+
+background-size:cover;
+height: 100%; 
+
+ }
+
+
+
+
+ /* ======== logo design ======== */
+#main-logo-design{
+    position:absolute;
+    top: -9px;
+
+}
+.project-logo-image-1{
+   width: 34px;
+    height: 12vh;
+    margin-left: 11px;
+ 
+  }
+
+
+  #logo-name-and-page-logo-1
+  {
+   
+    
+      color:red;
+      text-transform: inherit;
+      font-family: Arial, Helvetica, sans-serif;
+      font-variant: small-caps;
+  
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  
+  }
+  
+  .logo-name-1
+  { 
+      color: rgba(9, 255, 222, 0.596);
+      text-decoration: none;
+      margin-left: 40px;
+      position: absolute;
+      top:11px;
+      left: 1px;
+  
+  }
+  
+  
+  
+  #logo-name-and-page-logo-2
+  {
+   
+  color: rgba(255, 0, 0, 0.781);
+  font-family: Arial, Helvetica, sans-serif;
+  font: 200;
+  font-size: 30px;
+ 
+  
+  }
+  
+  .logo-name-2{
+      color: rgba(255, 0, 0, 0.781); 
+      text-decoration: none;
+     position: absolute;
+     top: 30px;
+     left: 63px;
+  }
+  
+
+
+
+/* 2 ======= login form section start ======== */
+
+
+
+/* ======= login section design and fixed position ======== */
+.login-page-design-main{
+
+
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: white;
+    border: 1px solid gray;
+   
+     padding-left: 70px;
+     padding-right:70px ;
+     padding-bottom: 50px;
+     padding-top: 70px;
+
+   box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: inset 1em -5em 2em gray ;
+    
+    
+    
+}
+
+.login-page-heding-login{
+text-align: center;
+font-size: 30px;
+
+
+}
+
+label{
+    font-size:20px;
+}
+
+input{
+   padding: 8px;
+   padding-right: 90px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+select{
+    padding: 8px 40px;
+    border: 1px solid blueviolet;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 2px 1px 2px 1px blueviolet;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+option{
+    font-size: 15px;
+}
+
+.login-btn{
+    margin-top: 20px;
+    padding: 8px 100px;
+    background-color: rgb(255, 81, 0);;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: white;
+  
+}
+
+.login-btn:hover{
+    color:whitesmoke;
+    background-color:#4681f4 ;
+    border: 1px solid #4681f4 ;
+    
+}
+
+.new-user-text
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.new-user-text a{
+    color: blue;
+    
+}
+.new-user-text a:hover{
+color:red;
+}
+
+.new-user-text-2{
+    font-size: 19px;
+    margin-left: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.new-user-text-2 a:hover{
+    color: red;
+    
+}
+
+
+
+/* login page image */
+
+
+
+
+
+
+.user-type-container{
+    color:red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3px;
+}
+
+.select-option-design-container{
+    padding-right: 70px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 10px ;
+    text-align: center;
+   
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #333;
+    color: white;
+   
+    position: absolute;
+    top: 60%;
+    left: 80px;
+}
+
+
+
+
+/* sign up btn */
+
+
+.sign-btn {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(121, 19, 204);
+    border-radius: 40px;
+    border-color: #4681f4;
+    float: right;
+    margin-top: 20px;
+   
+}
+.sign-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.sign-btn a:hover{
+    color:red;
+    
+}
+/* .sign-btn:hover{
+    background-color: mintcream;
+} */
+
+
+
+
+/* ===== =======  Footer Details Start  ======= ======  */
+
+#footer-details-insert-section-1{
+
+    background-color: #333333de;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 100%;
+    }
+
+    /* footer section -1  */
+
+    .footer-sec-1-text-heding-and-sub-heding{
+        position: absolute;
+      
+        left: 40%;
+        top: -1%;
+    }
+    .-foot-sec-1-text-heading-1{
+       margin-top: 50px;
+        font-size: 35px;
+        letter-spacing: 2px;
+        color: #F6B042;
+    }
+    .-foot-sec-1-text-heading-2{
+        margin-top: -40px;
+        margin-left: 36px;
+         font-size: 35px;
+         letter-spacing: 2px;
+         color:red;
+     }
+    .-foot-sec-1-text-sub-heding{
+     
+        font-size: 10px;
+         margin-top: -9px;
+         margin-left: 12px;
+         color: white;
+         letter-spacing: 1px;
+         
+        
+    }
+.-foot-navbar-content-main{
+   position: absolute;
+   top:65%;
+   left: 35%;
+   color:white;
+   display: flex;
+   word-spacing: 1px;
+    }
+
+.-foot-navbar-content-main a{
+text-decoration: none;
+margin: 2px;
+color: white;
+font-size: 17px;
+
+    }
+ 
+.-foot-navbar-content-main a:hover{
+color: red;
+font-size: 20px;
+    }
+
+
+.-foot-sec-1-logo-image{
+        position: absolute;
+        top: 30%;
+        left:-33%;
+        width: 50px;
+        height: 90px;
+     }
+ 
+
+
+
+    /*  footer section -2 deatails */
+#footer-details-insert-section-2{
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    height: 8vh;
+    
+}
+.copyright-and-website-update-details{
+    color: white;
+    font-size: 11px;
+    margin-left: 40%;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.Developer-info-details{
+    margin-left: 41%;
+    margin-top: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.-web-update-details-provide{
+     margin-top: -15px;
+     color:white;
+     margin-left: 5px;
+}
+
+.contact-email-website-provide{
+    float: right;
+    margin-top: -15px;
+    color: white;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+ /*  ====== time show funcation insert in web css ========= */
+
+
+
+ .current-time-text-show{
+    position: absolute;
+    top: 70%;
+    left: .3%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.clock {
+    position: absolute;
+    top: 73%;
+    left: 11.5%;
+    
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+}
+
+.forgot-password-text{
+    margin-left: 110px;
+}
+.forgot-password-text a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.forgot-password-text a:hover{
+    color: red;
+}

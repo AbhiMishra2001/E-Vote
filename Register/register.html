@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration | E-vote</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="register.css" />
+
+
+    <style>
+
+      /*=========== Remove Spin Arrow in Number Type=========*/
+  
+  input::-webkit-inner-spin-button,
+  input::-webkit-outer-spin-button{
+     -webkit-appearance: none;
+     margin:0;
+  }
+  input[type=number]{
+   -moz-appearance: textfield;
+  }
+  
+  </style>
+
+
+
+  </head>
+  <body>
+    <header>
+
+      <div id="main-logo-design">    
+        <a href="index.html"> <img src="../e-voter-project-image/project-main-logo-image-removebg-preview.png"  class="project-logo-image-1" >
+        </a>
+          <h3 id="logo-name-and-page-logo-1"><a href="../index.html" class="logo-name-1">E-</a></h3> 
+          <h3 id="logo-name-and-page-logo-2"><a href="../index.html" class="logo-name-2">VOTE</a></h3>
+      </div>
+    </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    <section class="container">
+      <header>Registration Form</header>
+      <form action="../Database-connection-files/database.php" method="POST"  enctype="multipart/form-data" class="form">
+        <div class="input-box">
+          <label>Full Name<span style="color: red;">*</span></label>
+          <input type="text" name="fullname" placeholder="Enter full name" required />
+        </div>
+        <div class="input-box">
+        <label>Father Name<span style="color: red;">*</span></label>
+          <input type="text" name="fathername"   placeholder="Enter father name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address<span style="color: red;">*</span></label>
+          <input type="text"  name="email" placeholder="Enter email address" required />
+        </div>
+
+        <div class="input-box">
+          <label>Username<span style="color: red;">*</span></label>
+          <input type="text"   name="username" placeholder="ex. username aa123" required />
+        </div>
+        <div class="input-box">
+          <label>Password<span style="color: red;">*</span></label>
+            <input type="password" name="password"   placeholder="Enter Your Password" required />
+          </div>
+          <div class="input-box">
+            <label>Conform Password<span style="color: red;">*</span></label>
+              <input type="password" name="cpassword"   placeholder="Enter conform Password" required />
+            </div>
+  
+            <div class="input-box">
+              <label>Aadhar Number<span style="color: red;">*</span></label>
+                <input type="number" name="aadhar"   placeholder="Enter Aadhar Number" required />
+              </div>
+        
+        <div class="column">
+          <div class="input-box">
+            <label>Mobile No.<span style="color: red;">*</span></label>
+            <input type="number" name="mobile" placeholder="Enter phone number" required />
+          </div>
+          <div class="input-box">
+            <label>Birth Date<span style="color: red;">*</span></label>
+            <input type="date"   name="dob"   placeholder="Enter birth date" required />
+          </div>
+        </div>
+
+
+        <div class="gender-box">
+          <h3>Gender<span style="color: red;">*</span></h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" value="M" checked />
+              <label for="check-male">male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" value="F"/>
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender"  value="O" />
+              <label for="check-other">Other</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Address<span style="color: red;">*</span></label>
+          <input type="text" name="address" placeholder="Enter street address" required />
+          
+          <div class="column">
+            <div class="select-box">
+              <select name="states">
+                <option hidden>Select State</option>
+                <option value="AP">Andra Pradesh</option>
+                <option value="HP">Himchal Pradesh</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="UP">Uttar Pradesh</option>
+              </select>
+            </div>
+            <input type="text" name="city" placeholder="Enter your city" required />
+          </div>
+          <div class="column">
+            <input type="number" name="pincode" placeholder="Enter Pin Code" required />
+            <input type="number" name="age" placeholder="Enter Age" required />
+          </div>
+          
+  
+          <div class="column"><div class="input-box">
+            <label>Photo<span style="color: red;">*</span></label>
+            <input type="file" name="photo" required>
+           </div></div>
+
+           <div class="column">
+            <div class="select-box">
+              <select name="user">
+               
+                <option value="V">VOTER</option>
+                
+          
+              </select>
+            </div>
+        </div>
+        
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+
+   <footer id="footer-details-insert-section-1">
+  
+    <!--  footer div section -1 -->
+    
+    
+    <div class="footer-details-section-cover-1">
+    
+         <div class="footer-sec-1-text-heding-and-sub-heding">
+          <img class="-foot-sec-1-logo-image" src="../e-voter-project-image/project-main-logo-image-removebg-preview.png">
+          
+          <h5 class="-foot-sec-1-text-heading-1">E-</h5>
+          <h5 class="-foot-sec-1-text-heading-2"> Vote</h5>
+                 <h5 class="-foot-sec-1-text-sub-heding">Easy & Secure Vote </h5>
+                 </div>
+    
+       <div class="-foot-navbar-content-main">
+            <p class="-foot-sec-1-navbar-tag-home">
+               <a href="../index.html">     HOME </a>|
+             </p>
+             <p class="-foot-sec-1-navbar-tag-contact-us">
+               <a href="../Login/login.aspx"> LOGIN </a>
+                 </p>
+                
+    
+                    
+                    
+       </div>
+        
+       <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
+        <script  src="../JS/real_time.js"></script>
+          <p class="current-time-text-show">Current-Time:</p>
+    </div>
+    <!-- footer div section -2  -->
+    
+    <div id="footer-details-insert-section-2"> 
+      <p class="copyright-and-website-update-details">Copyright ©E-Vote Voting 2023. All rights reserved  </p>
+       <p class="Developer-info-details"> Developed By ANN Group GSCE (Sagar) </p>
+       <p class="-web-update-details-provide">Site Last Update :26/04/2023</p>
+       <p class="contact-email-website-provide">Email:-evote@support.gmail.com</p>
+    
+    
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
